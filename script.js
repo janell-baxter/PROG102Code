@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const pages = [
     { name: "Home", file: "index.html", id: "home" },
     { name: "About", file: "about.htm", id: "about" },
-    { name: "Examples", file: "examples.htm", id: "examples" }
+    { name: "Portfolio", file: "portfolio.htm", id: "portfolio" }
   ];
 
   // navigation section
