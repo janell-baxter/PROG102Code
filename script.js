@@ -1,17 +1,28 @@
-    const buttons = document.querySelectorAll("nav button");
-    const pages = document.querySelectorAll(".page");
+// add comments to descript what this script does
+document.addEventListener("DOMContentLoaded", () => {
+  // pages as an array
+  const pages = [
+    { name: "Home", file: "index.html", id: "home" },
+    { name: "About", file: "about.htm", id: "about" },
+    { name: "Examples", file: "examples.htm", id: "examples" }
+  ];
 
-    buttons.forEach(button => {
-      button.addEventListener("click", () => {
-        const targetPage = button.dataset.page;
+  // navigation section
+  const nav = document.createElement("nav");
+  nav.innerHTML = pages
+    .map(page => `<a href="${page.file}" data-page="${page.id}">${page.name}</a>`)
+    .join("");
 
-        // Update active button
-        buttons.forEach(btn => btn.classList.remove("active"));
-        button.classList.add("active");
+// add navigation to html file
+  document.body.insertBefore(nav, document.body.firstChild);
 
-        // Show the selected "page"
-        pages.forEach(page => {
-          page.classList.toggle("active", page.id === targetPage);
-        });
-      });
-    });
+  // active link should look different - determine active page and add "active" class to the link
+  const currentPage = window.location.pathname.split("/").pop().split(".")[0];
+  const links = nav.querySelectorAll("a");
+
+  links.forEach(link => {
+    if (link.dataset.page === currentPage) {
+      link.classList.add("active");
+    }
+  });
+});
