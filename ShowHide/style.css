@@ -15,7 +15,7 @@ font-weight: 400;
       transparent 56px 63px,
       rgb(250 235 211/ 25%) 63px 69px,
       transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
+      rgb(255 249 223 / 25%) 116px 166px
     ),
     repeating-linear-gradient(
       0deg,
@@ -24,17 +24,17 @@ font-weight: 400;
       transparent 56px 63px,
       rgb(250 235 211 / 25%) 63px 69px,
       transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
+      rgb(255 249 223 / 25%) 116px 166px
     ),
     repeating-linear-gradient(
       -45deg,
       transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
+      rgb(253 221 214 / 25%) 5px 10px
     ),
     repeating-linear-gradient(
       45deg,
       transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
+      rgb(253 221 214 / 25%) 5px 10px
     );
     
 }
