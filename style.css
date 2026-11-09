@@ -71,12 +71,3 @@ p {
   padding: 20px;
 }
 
-/*==========content============== */
-    .page {
-      display: none;
-      padding: 40px;
-    }
-
-    .page.active {
-      display: block;
-    }
