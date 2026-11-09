@@ -16,6 +16,7 @@ body {
 /*==========content============== */
 main {
   padding: 40px;
+  max-width: 500px;
 }
 
 
