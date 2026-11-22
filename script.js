@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 3) id: A unique identifier used to recognize which page is currently active.
   const pages = [
     { name: "Home", file: "index.html", id: "home" },
-    { name: "About", file: "about.html", id: "about" },
-    { name: "Portfolio", file: "portfolio.html", id: "portfolio" }
+    { name: "About", file: "about.html", id: "about" }
   ];
 
   //=====================================Create Nav Element=====================================//
