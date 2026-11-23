@@ -6,11 +6,16 @@ Janell Baxter, 2026
 */
 
 body {
-  font-family: Arial, sans-serif;
   background-color: #f3f3f3;
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+
+h2 {
+border-top: 1px solid #666;
+  border-bottom: 3px solid #000;
 }
 
 /*==========content============== */
@@ -29,6 +34,23 @@ body {
     margin: 40px auto;
     text-align: left;
   }
+}
+
+
+/*==========fonts============== */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*==========emphasis============== */
