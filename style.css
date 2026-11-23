@@ -72,9 +72,11 @@ section {
 }
 
 section p {
-  max-width: 400px;
+  max-width: 500px;
 }
-
+ul {
+  max-width: 500px;
+}
 
 /*==========innerPageLinks============== */
 div .innerpageLinks {
