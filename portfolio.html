@@ -26,7 +26,7 @@ Janell Baxter, 2026
             </div>
          
          <div id="work" class="page">
-            <h1>Course Portfolio (PROG 102 Code)</h1>
+            <h1>Course Portfolio (PROG102 Code)</h1>
             <p>
                Below are assignments from the PROG 102 Code course that
                demonstrate an understanding of programming concepts, logic, 
@@ -141,7 +141,7 @@ Janell Baxter, 2026
             </section>
 
             <section id="InteractiveWebApplications">
-               <h2>Interactive Web Applications</h2>
+               <h2>Interactive Web Applications (Web Development & Artificial Intelligence)</h2>
                <h3>Code Trivia</h3>
                <p>
                   Designed and developed an interactive trivia application
@@ -177,12 +177,11 @@ Janell Baxter, 2026
                      >Code Trivia</a
                   >
                </p>
-               <p>
-                  **Technologies Used** </p>
+               <h4>Technologies Used</h4>
                <p>HTML5, CSS3, JavaScript, jQuery 3.7.1,
                   Google Fonts</p>
                
-               <p>**Key Skills Demonstrated**</p>
+               <h4>Key Skills Demonstrated</h4>
                <ul>
                   <li>Front-End Web Development</li>
                   <li>Semantic HTML Structure</li>
@@ -195,8 +194,28 @@ Janell Baxter, 2026
                   <li>User Interaction and Visual Feedback</li>
                   <li>Third-Party Library Integration</li>
                </ul>
-<!--
-               <h2>Assignment 2 Title</h2>
+
+               <h3>Image Subject Detection Application</h3>
+               <p>The goal of the project was to explore how machine learning 
+                  can be integrated into a web application using JavaScript 
+                  while creating a simple and user-friendly interface.</p>
+               <p>An interactive web application that uses artificial intelligence 
+                  to identify the subject of an uploaded image. The application 
+                  uses Google's TensorFlow.js library and the MobileNet 
+                  pre-trained machine learning model to analyze images 
+                  directly in the browser and return a predicted subject 
+                  along with a confidence percentage.</p>
+               <h4>Technologies Used</h4>
+               <p>HTML, CSS, JavaScript, TensorFlow.js, MobileNet</p>
+               <h4>Features</h4>
+               <ul>
+                  <li>AI Image Recognition: Uses the MobileNet model to identify objects and subjects within uploaded images.</li>
+                  <li>Image Upload: Allows users to select an image from their device using a file browser.</li>
+                  <li>Drag-and-Drop Functionality: Users can drag an image directly into the designated drop zone.</li>
+                  <li>Image Preview: Displays the selected image before presenting the classification results.</li>
+                  <li>Confidence Score: Shows the model's predicted subject and its confidence level as a percentage.</li>
+                  <li>Loading and Status Messages: Provides feedback while the AI model loads and analyzes an image.</li>
+               </ul>
                <img
                   src="placeholder.gif"
                   alt="Placeholder"
@@ -204,25 +223,27 @@ Janell Baxter, 2026
                   width="400"
                   height="300"
                />
-               <p>
-                  Detailed description... lorem ipsum dolor sit amet consectetur
-                  adipiscing elit fugiat molestias provident occaecat accusamus
-                  occaecat ut eos dolores quo aliquip sint voluptatum quis
-                  cupiditate dolore facere in culpa fugiat est lorem similique
-                  praesentium nulla distinctio dolorem fuga proident duis
-                  dignissimos cum quos ut molestias enim in deleniti ducimus et
-                  sit id facilis harum assumenda ducimus maxime omnis sint
-                  ducimus eum mollitia ea cillum proident commodo eiusmod omnis
-                  voluptate cillum et sint ipsum ut consequat in ea velit
-                  accusamus optio exercitation voluptas sit quibusdam culpa
-                  iusto fugiat ad quibusdam officia est officia mollitia dolor
-                  laborum assumenda quibusdam aute officia dolores sit et
-                  dolorem omnis sit repellendus odio officia officia proident
-                  aliquip imperdiet reprehenderit elit dolorem assumenda autem
-                  laborum est reprehenderit cum id mollitia voluptatum est
-                  similique praesentium lorem corrupti sunt id soluta
+               <h4>Development Process</h4>
+               <p>I used HTML to structure the application, creating an image upload area, preview element, and results section. 
+                  CSS was used to style the interface, including the dashed drag-and-drop area, layout, colors, and visual feedback.</p>
+               <p>JavaScript handled the application's functionality. I implemented an asynchronous function to load the MobileNet model 
+                  when the page opens. Once the model is ready, users can upload or drag and drop an image into the application. 
+                  The selected image is displayed using a temporary object URL, and an event listener triggers the image analysis once it has loaded.</p>
+               <p>The MobileNet model then classifies the image and returns its most likely subject and associated confidence score. 
+                  I also included checks to ensure the model is ready and an image has been selected before attempting classification.
                </p>
+               <h4>Key Skills Demonstrated</h4>
+               <ul>
+                  <li>Integrating a pre-trained machine learning model into a web application.</li>
+                  <li>Working with TensorFlow.js and the MobileNet image classification model.</li>
+                  <li>Writing asynchronous JavaScript functions using async and await.</li>
+                  <li>Handling file uploads and browser events.</li>
+                  <li>Implementing drag-and-drop functionality.</li>
+                  <li>Dynamically updating webpage content through the DOM.</li>
+                  <li>Styling interactive web elements with CSS.</li>
+               </ul>
 
+<!--
                <h2>Assignment 3 Title</h2>
                <img
                   src="placeholder.gif"
@@ -294,3 +315,4 @@ Janell Baxter, 2026
       <script src="script.js"></script>
    </body>
 </html>
+
