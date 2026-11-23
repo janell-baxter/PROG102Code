@@ -34,7 +34,7 @@ h3::before {
 @media screen and (max-width: 599px) { 
     main {
     padding: 40px;
-    max-width: 500px;
+    max-width: 550px;
     margin: 40px auto;
     text-align: left;
   }
@@ -65,7 +65,10 @@ h5 { font-size: 1.3em; }
 
 section {
 background: #f9f9f9;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 
 /*==========innerPageLinks============== */
 
