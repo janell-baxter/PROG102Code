@@ -12,6 +12,9 @@ body {
   padding: 0;
 }
 
+img {
+border: 1px solid #999;
+}
 
 h2 {
 
