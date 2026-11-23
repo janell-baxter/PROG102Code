@@ -26,20 +26,21 @@ h3::before {
 }
 
 /*==========content============== */
-@media screen and (min-width: 600px) { 
-    main {
+ main {
     padding: 40px;
     max-width: 800px;
     margin: 40px auto;
     text-align: left;
   }
+
+@media screen and (min-width: 600px) { 
+    main {
+    max-width: 800px;
+  }
 }
 @media screen and (max-width: 599px) { 
     main {
-    padding: 40px;
     max-width: 550px;
-    margin: 40px auto;
-    text-align: left;
   }
 }
 
