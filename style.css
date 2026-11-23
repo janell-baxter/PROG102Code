@@ -14,7 +14,7 @@ body {
 
 
 h2 {
-border-top: 1px solid #666;
+
   border-bottom: 3px solid #000;
 }
 
@@ -67,6 +67,7 @@ section {
 background: #f9f9f9;
   padding-left: 20px;
   padding-right: 20px;
+  border: 1px solid #666;
 }
 
 
